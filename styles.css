@@ -1,3 +1,8 @@
+*{
+    font-family: Roboto,Montserrat;
+}
+
+
 .logo img{
     height: 50px;
     width: 50px;
@@ -34,4 +39,63 @@ nav{
     padding: 10px;
 }
 
+.articles-title{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
 
+.articles-imgs {
+    display: flex;
+    justify-content:center;
+    padding-right: 100px;
+}
+
+.articles-imgs img {
+    display: flex;
+    
+    width: 150px;
+    height: 150px; 
+    padding: 30px;
+}
+.quote{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+}
+
+.block4{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+    
+   
+}
+
+.caixa-menor {
+    background-color: rgb(255, 180, 19);
+    padding: 10px;
+    border: 50px solid white; /* Adicione uma borda branca */
+    border-radius: 80px; /* Arredonde as bordas */
+}
+
+
+.block4-lorem{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+text-align: center;
+align-items: center;
+border-radius: 20px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
